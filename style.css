@@ -2,10 +2,32 @@ body {
     background-color: white;
   }
 
-.listbest {
-  padding: 10px;
-  border: 1px;
-  margin: 20px;
-  border-radius: 5px;
-  background-color: aqua;
+h1, h2  {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3, p {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+li {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img {
+  border-radius: 50%;
+  border: 1px solid black;
+  padding: 5px;
+  width: 150px;
+  height: 155px;
+}
+
+a {
+  color: rgb(6, 42, 54);
+  font-weight: bold;
+}
+
+a:hover {
+  color: red;
+  font-size: 18px;
 }
