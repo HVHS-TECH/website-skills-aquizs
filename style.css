@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: rgb(159, 182, 207);
   }
 
 h1, h2  {
@@ -8,10 +8,12 @@ h1, h2  {
 
 h3, p {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(0, 0, 0);
 }
 
 li {
   font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(0, 0, 0);
 }
 
 img {
@@ -23,11 +25,33 @@ img {
 }
 
 a {
-  color: rgb(6, 42, 54);
+  color: rgb(255, 255, 255);
   font-weight: bold;
+  font-size: xx-large;
 }
 
 a:hover {
   color: red;
-  font-size: 18px;
+  font-size: xx-large;
+}
+
+nav {
+  background-color: rgb(4, 40, 67);
+  height: 60px;
+  padding: 2px;
+}
+
+main {
+  background-color: rgb(191, 199, 205);
+  width: 150px;
+  height: 330px;
+  padding: 3px;
+  border-radius: 4%;
+}
+
+header {
+  background-color: rgb(191, 199, 205);
+  width: 400px;
+  padding: 1px;
+  border-radius: 4%;
 }
