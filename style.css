@@ -46,7 +46,7 @@ main {
   width: 150px;
   height: 330px;
   padding: 3px;
-  border-radius: 4%;
+  border-radius: 10px;
 }
 
 header {
@@ -54,4 +54,8 @@ header {
   width: 400px;
   padding: 1px;
   border-radius: 4%;
+}
+
+.container {
+  display:grid;
 }
